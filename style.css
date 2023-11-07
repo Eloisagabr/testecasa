@@ -1,0 +1,89 @@
+/* Estilos gerais */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif
+    margin:
+    padding: 0;
+    background-image:url(foto.jpg);
+    background-size: 1325px 900px;
+    background-repeat:no-repeat
+    
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #f3f3059c;
+    color:#f80505e7(0, 0, 0);
+    /*valores superior e inferior, seguido de valores da direita e esquerda.*/
+    padding: 20px 0;
+    text-align: right;;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    text-align: right;
+}
+
+nav a {
+    text-decoration: overline;
+    color: rgb(7, 7, 7);
+}
+
+/* Estilos das seções */
+section {
+    padding: 20px 0;
+    text-align: left;
+}
+
+section h2 {
+    font-size: 2px;
+    /*margin inferior*/
+    margin-bottom: 20px;
+}
+
+/* Estilos das receitas */
+.receita {
+    background-color: #FFFF00;
+    border: 1px solid red;
+    padding: 90px;
+    margin: 90px;
+    border-radius: 300px;
+}
+
+.receita h3 {
+    font-size: 768px;
+    margin-bottom: 100px;
+}
+h1{
+    color: red;
+}
+h2{
+    color: red;
+    text-align: center;
+
+}
+p{
+    color: rgb(253, 0, 0);
+}
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    /* Estilos responsivos aqui */
+}
+
+@media screen and (min-width: 769px) {
+    /* Estilos responsivos aqui */
+}
+img{
+    margin: auto;
+    display: block;
+    width: 300px
+    
+}
